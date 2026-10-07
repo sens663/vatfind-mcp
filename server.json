@@ -13,5 +13,14 @@
       "type": "streamable-http",
       "url": "https://vatfind.com/api/mcp"
     }
+  ],
+  "icons": [
+    {
+      "src": "https://vatfind.com/vatfind-logo-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
   ]
 }
