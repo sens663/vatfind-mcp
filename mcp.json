@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vatfind": {
+      "type": "http",
+      "url": "https://vatfind.com/api/mcp"
+    }
+  }
+}
