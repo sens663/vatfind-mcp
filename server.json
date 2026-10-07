@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.vatfind/company-identity",
+  "description": "VAT and EIN lookup, company identity matching with evidence, and company-record monitoring.",
+  "version": "1.1.1",
+  "websiteUrl": "https://vatfind.com/mcp-for-ai-agents",
+  "repository": {
+    "url": "https://github.com/sens663/vatfind-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vatfind.com/api/mcp"
+    }
+  ]
+}
