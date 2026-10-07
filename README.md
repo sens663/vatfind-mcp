@@ -1,5 +1,7 @@
 # VATFind MCP
 
+<img src="https://vatfind.com/vatfind-logo-512.png" alt="VATFind logo" width="160" height="160" />
+
 VAT and EIN lookup, company identity matching with source evidence, and company-record monitoring for AI agents.
 
 VATFind is a hosted commercial service. This repository contains public connection instructions and discovery metadata for its remote MCP server. The service implementation is maintained separately.
