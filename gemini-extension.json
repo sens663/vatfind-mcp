@@ -1,0 +1,10 @@
+{
+  "name": "vatfind-mcp",
+  "version": "1.0.0",
+  "description": "Look up VAT numbers and US EINs, match company identity with source evidence, and monitor company-record changes through VATFind's OAuth MCP service.",
+  "mcpServers": {
+    "vatfind": {
+      "httpUrl": "https://vatfind.com/api/mcp"
+    }
+  }
+}
