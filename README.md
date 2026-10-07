@@ -31,6 +31,18 @@ For clients that read a remote `mcpServers` configuration:
 
 Client configuration formats vary; use the client's remote OAuth connector settings when it does not accept this format. A client limited to local stdio servers cannot connect directly.
 
+## Gemini CLI
+
+Install the extension from this public repository:
+
+```sh
+gemini extensions install https://github.com/sens663/vatfind-mcp
+```
+
+Restart Gemini CLI, then use `/mcp auth vatfind` to authorize the connection if prompted. Gemini CLI discovers VATFind's OAuth endpoints and registers a public client automatically. Sign in to your VATFind workspace and approve access. Use `/mcp list` to inspect the available tools.
+
+The root `gemini-extension.json` connects to the hosted Streamable HTTP endpoint. It does not embed credentials or download a local VATFind server. VATFind account access and workspace allowance are required. Identifier matches and monitoring have the result boundaries described below.
+
 ## What agents can do
 
 - Look up VAT numbers and US EINs, subject to country and record coverage.
